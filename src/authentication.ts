@@ -27,7 +27,6 @@ export class DenofyAuthentication implements Authentication {
 			body: new URLSearchParams({ grant_type: 'client_credentials' }),
 		});
 		const data = await response.json();
-		console.log(data);
 		if (data.error) {
 			throw new Error(data.error_description || data.error);
 		}
