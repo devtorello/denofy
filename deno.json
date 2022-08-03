@@ -1,5 +1,9 @@
 {
+	"importMap": "./import_map.json",
 	"fmt": {
+		"files": {
+			"exclude": ["cov_profile"]
+		},
 		"options": {
 			"useTabs": true,
 			"singleQuote": true,
