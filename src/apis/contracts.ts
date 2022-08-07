@@ -9,13 +9,13 @@ export interface UserExternalUrls {
 
 export interface UserFollowers {
 	href: string;
-	total: integer;
+	total: number;
 }
 
 export interface UserImages {
 	url: string;
-	height: integer;
-	width: integer;
+	height: number;
+	width: number;
 }
 
 export interface User {
